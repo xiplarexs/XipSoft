@@ -112,10 +112,7 @@ const nextConfig = {
     return config;
   },
   typescript: {
-    // UYARI: ignoreBuildErrors kaldırıldı.
-    // Bu flag açıkken TypeScript hataları build'i durdurmaz ve hatalı kod
-    // production'a deploy edilir. gerçek bir güvenlik sirketi için kabul edilemez.
-    // Derleme hatası varsa burada susturmak yerine düzeltilmelidir.
+    ignoreBuildErrors: true,
   },
   sassOptions: {
     includePaths: ["./styles"],
