@@ -1,0 +1,36 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /_next/static/
+Allow: /_next/static/media/
+
+# Sitemap
+Sitemap: https://xipsoft.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Disallow auth-related pages
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+
+# Disallow private areas
+Disallow: /x/
+Disallow: /cart
+Disallow: /checkout
+
+# Block AI crawlers
+User-agent: gPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /

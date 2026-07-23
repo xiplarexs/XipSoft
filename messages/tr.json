@@ -1,0 +1,1018 @@
+{
+  "common": {
+    "language": {
+      "title": "Sistem Dili",
+      "turkish": "Türkçe",
+      "english": "English",
+      "switchToEnglish": "Switch to English",
+      "switchToTurkish": "Türkçeye geç"
+    }
+  },
+  "join": {
+    "title": "Toplulugumuza Katılın",
+    "description": "XipSoft'ın gelistirici toplulugu ile baglantı kurun. Bilgi paylasın, fırsatlar bulun ve birlikte büyüyün.",
+    "cta": "Topluluk grubu",
+    "communityTitle": "XipSoft Teknoloji Toplulugu",
+    "desc": {
+      "explore": "Kesfedin: ",
+      "jobBoard": "Is Ilanları",
+      "techArticles": "Teknoloji Makaleleri",
+      "portfolio": "Portföy",
+      "outro": ", ve karsılıklı büyümeyle gelisen bir topluluga katılın."
+    },
+    "pill": {
+      "jobs": "Isler",
+      "articles": "Makaleler",
+      "portfolio": "Portföy",
+      "community": "Topluluk"
+    }
+  },
+  "platform": {
+    "badge": "Yazılım & Teknoloji",
+    "title": {
+      "prefix": "Yazılım ve Teknoloji ",
+      "highlight": "Merkeziniz"
+    },
+    "description": {
+      "intro": "Bu platform yazılım ve teknoloji tartısmaları için nihai destinasyonunuz. Ister ",
+      "desktop": "masaüstü",
+      "mobile": "mobil",
+      "cloud": "bulut",
+      "backend": "arka uç",
+      "outro": " mühendisligiyle ilgili olsun — bu, baglantı kurmak, ögrenmek ve paylasmak için sizin alanınız."
+    },
+    "desktop": {
+      "label": "Masaüstü",
+      "description": "Yerel uygulamalar, Electron, çapraz platform"
+    },
+    "mobile": {
+      "label": "Mobil",
+      "description": "iOS, Android, React Native, Flutter"
+    },
+    "cloud": {
+      "label": "Bulut",
+      "description": "AWS, gCP, Azure, DevOps"
+    },
+    "backend": {
+      "label": "Arka Uç",
+      "description": "API'ler, veritabanları, mikro hizmetler"
+    },
+    "terminal": {
+      "hello": "Merhaba Dünya!!",
+      "from": " gelen "
+    }
+  },
+  "XipSoftTypo": {
+    "subtitle": "XipSoft Yazılım & Teknoloji"
+  },
+  "nav": {
+    "about": "Hakkımızda",
+    "home": "Ana Sayfa",
+    "products": "Ürünler",
+    "services": "Hizmetler",
+    "references": "Referanslar",
+    "contact": "Iletisim",
+    "getQuote": "Teklif Al",
+    "classes": "Sınıflar",
+    "books": "Kitaplar",
+    "howTo": "Nasıl Yapılır",
+    "blog": "Blog",
+    "jobs": "Isler",
+    "navigation": "gezinme",
+    "brandName": "XipSoft — Yazılım & Teknoloji Çözümleri",
+    "servicesMenu": {
+      "title": "Hizmetlerimiz",
+      "web": "Web Yazılım & Tasarım",
+      "webDesc": "Modern, hızlı ve SEO uyumlu Next.js/React arayüzler",
+      "mobile": "Mobil Uygulama",
+      "mobileDesc": "iOS, Android ve Mac için native veya cross-platform çözümler",
+      "desktop": "Masaüstü Yazılım",
+      "desktopDesc": "Windows, macOS ve Linux için güçlü masaüstü uygulamaları",
+      "security": "Siber güvenlik",
+      "securityDesc": "Uçtan uca güvenlik denetimi ve koruma çözümleri",
+      "seo": "SEO & Dijital Pazarlama",
+      "seoDesc": "Arama motoru optimizasyonu ve dijital büyüme stratejileri"
+    }
+  },
+  "home": {
+    "badge": "Yazılım & Teknoloji",
+    "tagline": "Yazılım gelistirme ve teknoloji çözümlerinde güvenilir ortagınız.",
+    "devProfiles": {
+      "title": "gelistirici Profilleri",
+      "body": "gelistirici profilinizi olusturun ve çalısmalarınızı sergileyin. Teknoloji toplulugumuzda baglantı kurmak ve isbirligi yapmak için diger mühendislerin profillerini kesfedin."
+    },
+    "readArticles": {
+      "title": "Teknoloji Makaleleri",
+      "body": "Yazılım ve teknoloji hakkında makaleler ve bloglar yazın. Sektör trendlerini ögrenmek, büyümek ve güncel kalmak için uzmanlar tarafından paylasılan bilgilere erisin."
+    },
+    "": {
+      "title": "Topluluk",
+      "body": "Yazılım, teknoloji ve gelistirme hakkında sorular sorun, deneyimlerinizi paylasın. Binlerce gelistiriciyle tartısmalara katılın ve toplulugun gücünden yararlanın."
+    },
+    "blog": {
+      "title": "Blog & Makaleler",
+      "body": "Yazılım ve teknoloji dünyasından güncel makaleler, rehberler ve içgörüler. Uzman yazarların kaleminden sektör trendlerini takip edin ve bilginizi genisletin."
+    },
+    "xipsoftFark": {
+      "title": "Neden XipSoft?",
+      "subtitle": "Siber güvenlikten gömülü sistemlere uzanan 15+ yıllık mühendislik birikimi.",
+      "experience": "15+ Yıl Deneyim",
+      "experienceDesc": "Siber güvenlikten gömülü sistemlere kadar uzanan teknik bilgi birikimi. Her satır kod, gerçek proje tecrübesiyle yazılır.",
+      "guarantee": "Kalite garantisi",
+      "guaranteeDesc": "Her satır kod XipSoft kalite standartlarına uygun yazılır. Unit test, yük testi ve güvenlik denetimi standart sürecimizdir.",
+      "directComm": "Dogrudan Iletisim",
+      "directCommDesc": "Satıs temsilcileriyle degil, projenizi insa eden mühendislerle görüsürsünüz. Hızlı karar, sıfır bürokratik gecikme.",
+      "sourceFiles": "Tam Kaynak Kodu",
+      "sourceFilesDesc": "Projenizin tüm varlıkları, bagımlılıkları ve konfigürasyon dosyalarıyla %100 size aittir. Vendor lock-in yok.",
+      "identity": "Uzun Vadeli Ortaklık",
+      "identityDesc": "Projeniz yayına girdiginde isimiz bitmez, asıl yolculuk baslar. CI/CD, bakım ve ölçekleme süreçlerinde yanınızdayız."
+    },
+    "services": {
+      "title": "Uçtan Uca Teknik Uzmanlık",
+      "subtitle": "Her platform ve ihtiyaç için ölçeklenebilir, sürdürülebilir yazılım mimarileri.",
+      "web": "Web Yazılım & E-Ticaret",
+      "webDesc": "Next.js/React ile Core Web Vitals'ta üst seviye hedefleyen web çözümleri. SSR/SSg optimizasyonu, Edge Runtime, veritabanı sharding ve yüksek trafikli e-ticaret altyapıları.",
+      "mobile": "Mobil Uygulama",
+      "mobileDesc": "Flutter/React Native ile tek kod tabanından native performans. Offline-first mimariler, SSL Pinning ve Sentry/Firebase ile uygulama içi izleme.",
+      "desktop": "Masaüstü Yazılım",
+      "desktopDesc": "Electron, Qt ve C++ temelli güçlü masaüstü uygulamaları. Düsük seviyeli sistem erisimi, donanım entegrasyonları ve Windows/macOS/Linux cross-platform uyumluluk.",
+      "security": "Siber güvenlik (Pentest & Audit)",
+      "securityDesc": "Blackbox ve Whitebox testleriyle OWASP Top 10 denetimleri. API güvenligi, Docker konteyner izolasyonu ve 7/24 SIEM takibi.",
+      "seo": "SEO & Dijital Pazarlama",
+      "seoDesc": "Teknik SEO, Core Web Vitals optimizasyonu, google Ads ve dönüsüm odaklı içerik stratejisi ile organik büyüme.",
+      "custom": "Özel Yazılım & Is Otomasyonu",
+      "customDesc": "Mikroservis mimarisiyle tasarlanmıs ERP ve CRM çözümleri. Event-driven mimariler, RabbitMQ/Kafka mesajlasma, ölçeklenebilir PostgreSQL/NoSQL yapılar."
+    },
+    "stats": {
+      "years": "Yıl",
+      "experience": "Teknoloji Tecrübesi",
+      "projects": "Yazılım",
+      "completed": "Proje Teslim Edildi",
+      "clients": "Mutlu",
+      "clientsLabel": "Teknoloji Müsterisi"
+    }
+  },
+  "profileEditor": {
+    "label": "Profil Editörü",
+    "title": "Profilinizi Olusturun",
+    "subtitle": "Ayrıntılarınızı doldurun, profilinizi önizleyin ve ",
+    "download": "indirin",
+    "subtitleMid": " ",
+    "mdx": ".mdx",
+    "subtitleEnd": " dosyasını bir pull request olarak gönderin.",
+    "downloadBtn": ".mdx Indir",
+    "resetBtn": "Sıfırla",
+    "editorHeader": "Editör",
+    "name": "Ad",
+    "description": "Açıklama",
+    "imageUrl": "Resim URL'si",
+    "tags": "Etiketler",
+    "markdownBody": "Markdown gövdesi",
+    "namePlaceholder": "Tam adınız",
+    "descriptionPlaceholder": "Kısa bir biyografi veya slogan",
+    "bodyPlaceholder": "Markdown kullanarak kendiniz hakkında yazın...\n\n# Merhaba\n\nBen XipSoft'dan bir yazılım mühendisiyim.\n\n- Beceri 1\n- Beceri 2",
+    "preview": "Önizleme",
+    "raw": "Ham",
+    "mdxLabel": "MDX",
+    "emptyPreview": "Profil önizlemesini görmek için yazmaya baslayın...",
+    "cardPreview": "Kart Önizlemesi"
+  },
+  "howTo": {
+    "label": "Baslangıç",
+    "title": "Profilinizi Nasıl Ekleyebilirsiniz",
+    "subtitle": "XipSoft topluluk platformuna gelistirici profilinizi eklemek için bu {count} adımı izleyin.",
+    "step1Title": "Depoyu Çatallayın",
+    "step1Desc": "XipSoft gitHub deposuna gidin ve kendi kopyanızı olusturmak için \"Çatal\" dügmesine tıklayın.",
+    "step2Title": "Makinenize Klonlayın",
+    "step2Desc": "Çatallanmıs depoyu git kullanarak yerel makinenize klonlayın.",
+    "step3Title": "Bagımlılıkları Kurun",
+    "step3Desc": "Proje dizinine gidin ve Bun kullanarak bagımlılıkları kurun.",
+    "step4Title": "Dalınızı Olusturun",
+    "step4Desc": "Adınızı kullanarak yeni bir dal olusturun. Bu, degisikliklerinizi ana daldan ayrı tutar.",
+    "step5Title": "gelistirmeyi Baslatın",
+    "step5Desc": "gelistirme sunucusunu çalıstırın ve degisiklikleri gerçek zamanlı olarak görün.",
+    "step6Title": "Tarayıcıda Açın",
+    "step6Desc": "Siteyi yerel olarak çalısırken localhost:3000'i tarayıcınızda ziyaret edin.",
+    "step7Title": "Profilinizi Olusturun",
+    "step7Desc": "Iki seçeneginiz var: görsel Profil Editörünü kullanın veya manuel olarak bir MDX dosyası olusturun.",
+    "step8Title": "Profilinizi Kontrol Edin",
+    "step8Desc": "Profiller sayfasına gidin. Kartınız görünmelidir. Birçok profil varsa arama çubugunu kullanın.",
+    "optionEditor": "Profil Editörü",
+    "optionManual": "Manuel",
+    "ctaComplete": "tamamla",
+    "ctaStepsComplete": "Tüm {count} adım tamamlandı —",
+    "ctaProfileReady": "profil hazır!",
+    "ctaReadyTo": "Hazır mısınız? ",
+    "ctaContribute": "katkı vermek için?",
+    "ctaJoinPrefix": "Profilinizi ekleyin ve ",
+    "ctaJoinSuffix": " XipSoft teknoloji topluluguna katılın.",
+    "step7Line1": "1. localhost:3000/profile/editor adresini ziyaret edin",
+    "step7Line2": "2. Ayrıntılarınızı doldurun ve önizleyin",
+    "step7Line3": "3. .mdx Indir'e tıklayın",
+    "step7Line4": "4. Dosyayı su konuma kaydedin:",
+    "step8Line1": "Profil kartınız ızgarada görünür!",
+    "step8Line2": "gerekirse adınızı yazarak ara.",
+    "step9Title": "Degisiklikleri Kaydedin",
+    "step9Desc": "Profil dosyanızı hazırlayın ve iyi biçimlendirilmis bir commit olusturmak için interaktif gitmoji commit yardımcısını kullanın.",
+    "step9Sub1": "Profil dosyanızı hazırlayın",
+    "step9Sub2": "Commit yardımcısını çalıstırın",
+    "step9Sub3": "gitmoji istemlerine doldurun",
+    "step9Sub4": "Commit olusturuldu",
+    "step10Title": "gitHub'a gönderin",
+    "step10Desc": "Dalınızı gitHub'daki çatallanmıs deponuza gönderin.",
+    "step11Title": "Pull Istegi Olusturun",
+    "step11Desc": "gitHub'daki orijinal XipSoft deposuna gidin ve dalınızdan bir pull istegi olusturun.",
+    "step11Sub1": "Pull istegi sayfasını açın",
+    "step11Sub2": "Ayrıntıları doldurun",
+    "step11Sub3": "gönderin",
+    "step11Line1": "Pull Istegi Aç",
+    "step11Line2": "Taban: main  ←  Karsılastır: your_name",
+    "step11Line3": "Baslık: your_name profilini ekle",
+    "step11Line4": "Açıklama: gelistirici profilimi ekledim",
+    "step11Line5": "  Create Pull Request'e tıklayın",
+    "ctaOpenEditor": "Profil Editörünü Aç",
+    "ctaViewProfiles": "Profilleri görüntüle"
+  },
+  "contact": {
+    "label": "Iletisim Kurun",
+    "title": "Bize Ulasın",
+    "subtitlePrefix": "XipSoft'ın gelistirici toplulugu ile baglantı kurun. Ister ",
+    "collaborate": "isbirligi yapın",
+    "subtitleMid": ", ",
+    "contribute": "katkı verin",
+    "subtitleEnd": " veya sadece merhaba deyin — biz buradayız.",
+    "fbLabel": "Topluluk grubu",
+    "fbDesc": "XipSoft Teknoloji ile baglantı kurmak için topluluk grubumuza katılın. Bilgi paylasın, fırsatlar bulun ve birlikte büyüyün.",
+    "fbTagline": "Topluluk ve Ag Olusturma",
+    "fbCta": "Topluluk grubuna Katıl",
+    "ghLabel": "gitHub",
+    "ghDesc": "Açık kaynak projelerimize katkıda bulunun, gelistirici profilinizi ekleyin ve topluluk tarafından yönlendirilen girisimlerde isbirligi yapın.",
+    "ghTagline": "Açık Kaynak ve Katkılar",
+    "ghCta": "gitHub'da görüntüle",
+    "openTo": "Herkese açık",
+    "allWelcome": "tüm beceri seviyeleri hos karsılanır"
+  },
+  "blog": {
+    "label": "Makaleler ve Içgörüler",
+    "title": "Blog",
+    "subtitle": "XipSoft'ın yazılım mühendislik toplulugundan hikayeler, ögreticiler ve içgörüler.",
+    "article": "Makale",
+    "articles": "Makaleler",
+    "readArticle": "Makaleyi oku",
+    "noPostsTitle": "Henüz gönderi yok",
+    "noPostsBody": "Heyecan verici makaleler yakında yayında. Mühendis toplulugumuz okumaya deger hikayeler yazıyor.",
+    "write": "Yaz",
+    "writeBlog": "Blog Yaz",
+    "newBlog": "Yeni Blog",
+    "myBlogs": "Bloglarım",
+    "saveDraft": "Taslagı Kaydet",
+    "publish": "Yayımla",
+    "unpublish": "Yayınlamayı Kaldır",
+    "editBlog": "Blogu Düzenle",
+    "deleteBlog": "Blogu Sil",
+    "communityPost": "Topluluk",
+    "writeNewBlog": "Yeni Blog Yaz",
+    "formTitle": "Baslık",
+    "formTitlePlaceholder": "Baslık gönderin",
+    "formDescription": "Açıklama",
+    "formDescriptionPlaceholder": "gönderinizin kısa özeti",
+    "formCoverImage": "Kapak görseli URL'si",
+    "formCoverImagePlaceholder": "https://example.com/image.jpg (istege baglı)",
+    "formTags": "Etiketler",
+    "formTagsPlaceholder": "Etiket ekleyin (Enter tusuna basın)",
+    "formContent": "Içerik",
+    "formContentPlaceholder": "gönderinizi yazmaya baslayın... (komutlar için / yazın)",
+    "saving": "Kaydediliyor...",
+    "autoSaveNote": "Her 5 saniyede otomatik kaydedilir",
+    "published": "Yayımlandı",
+    "draft": "Taslak",
+    "maxPostsPerDay": "günde Maks 3 gönderi",
+    "loadMore": "Daha Fazla Yükle"
+  },
+  "jobs": {
+    "label": "Is Ilanları",
+    "title": "Isler",
+    "subtitle": "XipSoft'ın yazılım mühendislik toplulugu tarafından paylasılan is fırsatlarını kesfedin.",
+    "job": "Is",
+    "jobsCount": "Isler",
+    "allJobs": "Tüm isler",
+    "expired": "Süresi Dolmus",
+    "expires": "Bitis Tarihi",
+    "viewDetails": "Detayları göster",
+    "noJobsTitle": "Henüz is yok",
+    "noJobsBody": "Is fırsatları çok yakında. Topluluk üyeleri buraya pozisyonlar ekleyecek.",
+    "noJobFound": "Is bulunamadı",
+    "postJob": "Is Yayınla",
+    "postedBy": "Yayınlayan",
+    "newJob": "Yeni Is",
+    "myJobs": "Islerim",
+    "saveDraft": "Taslagı Kaydet",
+    "publish": "Yayımla",
+    "unpublish": "Yayından Kaldır",
+    "editJob": "Isi Düzenle",
+    "deleteJob": "Isi Sil",
+    "postNewJob": "Yeni Is Yayınla",
+    "share": "Paylas",
+    "formPosition": "Pozisyon",
+    "formPositionPlaceholder": "Is unvanı (örn. Kıdemli Frontend Mühendisi)",
+    "formTag": "Is Türü",
+    "formTagPlaceholder": "örn. Tam Zamanlı, Uzaktan, Sözlesmeli",
+    "formSkills": "Beceriler",
+    "formSkillsPlaceholder": "Beceri ekleyin (Enter tusuna basın)",
+    "formEmail": "Ofis E-postası",
+    "formEmailPlaceholder": "hr@firma.com",
+    "formExpiredAt": "Bitis Tarihi",
+    "formExpiredAtPlaceholder": "Bitis tarihini seçin",
+    "formExpiredAtHint": "gelecekteki bir tarih olmalıdır. Is ilanı bu tarihten sonra süresi dolmus olarak isaretlenir.",
+    "formDescription": "Açıklama",
+    "formDescriptionPlaceholder": "Rolü, gereksinimleri ve avantajları açıklayın... (komutlar için / yazın)",
+    "saving": "Kaydediliyor...",
+    "autoSaveNote": "Her 5 saniyede otomatik kaydedilir",
+    "published": "Yayımlandı",
+    "draft": "Taslak",
+    "maxPostsPerDay": "günde Maks 3 gönderi",
+    "loadMore": "Daha Fazla Yükle",
+    "loading": "Yükleniyor...",
+    "disclaimerLabel": "Uyarı:",
+    "disclaimerText": "Bu is ilanı topluluk tarafından gönderilmistir ve tam olarak dogrulanmamıstır. Basvurmadan önce lütfen sirketin resmi web sitesini ziyaret edin ve saglanan bilgileri dogrulayın.",
+    "tagOptions": {
+      "fullTime": "Tam Zamanlı",
+      "partTime": "Yarı Zamanlı",
+      "remote": "Uzaktan",
+      "contract": "Sözlesmeli",
+      "freelance": "Serbest",
+      "internship": "Staj"
+    }
+  },
+  "teklif": {
+    "title": "Ücretsiz Teklif Alın",
+    "subtitle": "Projenizi anlatın, uzman ekibimiz en kısa sürede dönecektir.",
+    "name": "Ad Soyad",
+    "namePlaceholder": "Adınız ve soyadınız",
+    "email": "E-posta",
+    "emailPlaceholder": "ornek@email.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+90 5XX XXX XX XX",
+    "service": "Hizmet Türü",
+    "servicePlaceholder": "Hizmet seçin",
+    "serviceOptions": {
+      "web": "Web Yazılım & Tasarım",
+      "mobile": "Mobil Uygulama",
+      "desktop": "Masaüstü Yazılım",
+      "security": "Siber güvenlik",
+      "seo": "SEO & Dijital Pazarlama",
+      "other": "Diger"
+    },
+    "detail": "Proje Detayı",
+    "detailPlaceholder": "Projeniz hakkında kısaca bilgi verin...",
+    "submit": "Teklif gönder",
+    "submitting": "gönderiliyor...",
+    "successTitle": "Teklifiniz Alındı!",
+    "successMessage": "Teklifiniz basarıyla alındı, uzman ekibimiz en kısa sürede dönecektir.",
+    "close": "Kapat"
+  },
+  "auth": {
+    "signIn": "giris Yap",
+    "signOut": "Çıkıs Yap",
+    "signInRequired": "giris gereklidir",
+    "signInDesc": "Bu özellige erismek için google hesabınızla giris yapın.",
+    "signInWithgoogle": "google ile giris Yap",
+    "accessDenied": "Erisim reddedildi",
+    "accessDeniedDesc": "Bu sayfayı görüntüleme izniniz yok.",
+    "backToBlog": "Bloga geri Dön"
+  },
+  "devSetup": {
+    "label": "gelistirme Kurulumu",
+    "title": "Firebase Kurulum Kılavuzu",
+    "subtitle": "Yerel gelistirme için Firebase'i kurmak için bu {count} adımı izleyin. Baslangıç dostu — önceki deneyime gerek yok.",
+    "step1Title": "google Hesabı Olusturun",
+    "step1Desc": "Firebase bir google ürünüdür, bu nedenle bir google hesabına ihtiyacınız var. Zaten bir gmail hesabınız varsa, bu adımı atlayın.",
+    "step1Line1": "suraya git: accounts.google.com/signup",
+    "step1Line2": "Adınızı doldurun ve bir kullanıcı adı olusturun",
+    "step1Line3": "Bir sifre ayarlayın ve telefonunuzu dogrulayın",
+    "step1Line4": "Bitti! Artık google hesabınız var",
+    "step2Title": "Firebase Projesi Olusturun",
+    "step2Desc": "Firebase Konsoluna gidin ve yerel gelistirme ortamınız için yeni bir proje olusturun.",
+    "step2Line1": "suraya git: console.firebase.google.com",
+    "step2Line2": "\"Proje olustur\" veya \"Proje ekle\"ye tıklayın",
+    "step2Line3": "Proje adını girin (örn. XipSoft-dev)",
+    "step2Line4": "google Analytics'i etkinlestirin veya atlayın",
+    "step2Line5": "\"Proje olustur\"a tıklayın ve ~30 saniye bekleyin",
+    "step3Title": "Web Uygulaması Kaydedin",
+    "step3Desc": "Firebase projenizin içinde, kimlik bilgileri almak için bir web uygulaması kaydedin.",
+    "step3Line1": "Proje Özeti'nde, Web simgesine tıklayın",
+    "step3Line2": "Bir uygulama takma adı girin (örn. XipSoft-web)",
+    "step3Line3": "Firebase Barındırmasını atla (isaretini kaldır)",
+    "step3Line4": "\"Uygulamayı Kaydet\"e tıklayın",
+    "step4Title": "Firebase Yapılandırmasını Kopyala",
+    "step4Desc": "Kaydolduktan sonra, Firebase yapılandırma degerlerinizi gösterir. Bunları kopyalayın — bunlara .env.local dosyanız için ihtiyacınız olacak.",
+    "step4Line1": "apiKey: \"AIzaSy...\"",
+    "step4Line2": "authDomain: \"your-project.firebaseapp.com\"",
+    "step4Line3": "projectId: \"your-project-id\"",
+    "step4Line4": "storageBucket: \"your-project.firebasestorage.app\"",
+    "step4Line5": "messagingSenderId: \"123456789\"",
+    "step4Line6": "appId: \"1:123456789:web:abc123\"",
+    "step4Tip": "Bunları istedigi zaman surada bulabilirsiniz: Proje Ayarları → genel → Uygulamalarınız",
+    "step5Title": "google Kimlik Dogrulamasını Etkinlestirin",
+    "step5Desc": "Kullanıcıların platforma giris yapabilmesi için google oturum açmayı ayarlayın.",
+    "step5Line1": "Kenar Çubugu → Derleme → Kimlik Dogrulama → Basla",
+    "step5Line2": "\"Oturum Açma Yöntemi\" sekmesine tıklayın",
+    "step5Line3": "\"google\" → Degistir → Kaydet'e tıklayın",
+    "step5Line4": "Proje adınızı ve destek e-postanızı ayarlayın",
+    "step6Title": "Firestore Veritabanı Olusturun",
+    "step6Desc": "Firestore blog yazılarını, is listelerini ve kullanıcı verilerini depolar.",
+    "step6Line1": "Kenar Çubugu → Derleme → Firestore Veritabanı",
+    "step6Line2": "\"Veritabanı Olustur\"a tıklayın",
+    "step6Line3": "Konumu seçin (XipSoft için asia-southeast1)",
+    "step6Line4": "gelistirme için \"Test modu\"yla baslayın",
+    "step6Line5": "\"Olustur\"a tıklayın",
+    "step7Title": "Firebase Depolaması Olusturun",
+    "step7Desc": "Depolama, blog kapak fotografları ve kullanıcı avatarları için görüntü yüklemelerini isler.",
+    "step7Line1": "Kenar Çubugu → Derleme → Depolama",
+    "step7Line2": "\"Basla\"ya tıklayın",
+    "step7Line3": "gelistirme için \"Test modu\"yla baslayın",
+    "step7Line4": "\"Bitti\"ye tıklayın",
+    "step8Title": "Projeyi Klonla ve Kurun",
+    "step8Desc": "XipSoft deposunu klonlayın ve Bun kullanarak bagımlılıkları kurun. Kodları zaten klonladıysanız, sadece bun install çalıstırın ve sonraki adıma geçin.",
+    "step9Title": "Ortam Degiskenlerini Ayarlayın",
+    "step9Desc": ".env.local dosyanızı olusturun ve Firebase yapılandırma degerlerini 4. adımdan yapıstırın.",
+    "step9Line1": "cp .env.example .env.local",
+    "step9Line2": "# Ardından .env.local dosyasını Firebase degerleriyle düzenleyin:",
+    "step9Line3": "NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key",
+    "step9Line4": "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com",
+    "step9Line5": "NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id",
+    "step9Line6": "NEXT_PUBLIC_FIREBASE_STORAgE_BUCKET=your-project.firebasestorage.app",
+    "step9Line7": "NEXT_PUBLIC_FIREBASE_MESSAgINg_SENDER_ID=123456789",
+    "step9Line8": "NEXT_PUBLIC_FIREBASE_APP_ID=1:123456789:web:abc123",
+    "step9Line9": "NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=g-XXXXXXXXXX",
+    "step10Title": "Dev Sunucusunu Çalıstırın",
+    "step10Desc": "gelistirme sunucusunu baslatın ve uygulamayı tarayıcınızda açın.",
+    "ctaComplete": "Kurulum Tamamlandı!",
+    "ctaDesc": "Firebase ile yerel olarak gelistirmeye hazırsınız. google ile giris yapın, blog yazıları olusturun ve is listelerini test edin.",
+    "ctaOpenApp": "Dev Sunucusunu Aç",
+    "ctaViewguide": "Nasıl Yapılır Kılavuzunu Izle"
+  },
+  "profileHero": {
+    "label": "gelistirici Dizini",
+    "title": "Profiller",
+    "subtitle": "XipSoft'dan {count}+ yazılım mühendisini kesfedin. Teknolojiye göre göz atın, adla arayın ve toplulukla birlesin."
+  },
+  "booksHero": {
+    "label": "Teknoloji Kitapları ve Kaynaklar",
+    "title": "Kitaplar",
+    "subtitle": "XipSoft Teknoloji tarafından önerilen teknoloji kitapları ve ögrenme kaynakları."
+  },
+  "classesHero": {
+    "label": "Teknoloji Sınıfları ve Atölyeleri",
+    "title": "Sınıflar",
+    "subtitle": "XipSoft'daki teknoloji sınıflarının güven tabanlı, topluluk tarafından belirlenen bir dizini. girisler yayınlanmadan önce gözden geçirilir."
+  },
+  "footer": {
+    "tagline": {
+      "prefix": "XipSoft'ın Yazılım'ını ",
+      "innovate": "yenilik yapmak",
+      "collaborate": "isbirligi yapmak",
+      "build": "insa etmek",
+      "suffix": " konusunda güçlendirmek — her seferinde bir kod satırı."
+    },
+    "openSource": "Açık Kaynak",
+    "navigate": "gezinti",
+    "home": "Ana Sayfa",
+    "profiles": "Profiller",
+    "classes": "Sınıflar",
+    "books": "Kitaplar",
+    "profileEditor": "Profil Editörü",
+    "blog": "Blog",
+    "contactUs": "Bizimle Iletisime geçin",
+    "jobs": "Isler",
+    "devSetup": "gelistirme Kurulumu",
+    "privacy": "gizlilik Politikası",
+    "terms": "Hizmet sartları",
+    "cookies": "Çerez Politikası",
+    "community": "Topluluk",
+    "github": "gitHub Organizasyonu",
+    "facebook": "Topluluk grubu",
+    "copyright": "XipSoft Teknoloji"
+  },
+  "": {
+    "label": "Topluluk",
+    "title": "Hack & Siber güvenlik",
+    "subtitle": "Siber güvenlik, etik hackerlık, SEO ve yazılım gelistirme tartısmaları için en büyük topluluga katılın.",
+    "categories": {
+      "cybersecurity": "Siber güvenlik",
+      "blackhat": "Black Hat & Hack",
+      "whitehat": "White Hat & güvenlik",
+      "greyhat": "grey Hat & Arastırma",
+      "seo": "SEO & Dijital Pazarlama",
+      "development": "Yazılım gelistirme",
+      "network": "Ag & Sistemler"
+    },
+    "newThread": "Yeni Konu",
+    "searchPlaceholder": "Konu ara...",
+    "noThreads": "Henüz konu yok",
+    "noThreadsDesc": "Bu kategoride ilk tartısmayı baslatan siz olun.",
+    "threadCount": "Konu",
+    "postCount": "Mesaj",
+    "lastPost": "Son Mesaj",
+    "views": "görüntülenme",
+    "replies": "Cevaplar",
+    "sticky": "Sabitlenmis",
+    "locked": "Kilitli",
+    "hot": "Popüler"
+  },
+  "hacking": {
+    "label": "Hack & güvenlik",
+    "title": "Hack Egitimleri & Rehberler",
+    "subtitle": "Topluluk uzmanlarımızdan sızma testi, exploit gelistirme ve güvenlik arastırması ögrenin.",
+    "categories": {
+      "pentest": "Sızma Testleri",
+      "exploits": "Exploit gelistirme",
+      "social": "Sosyal Mühendislik",
+      "malware": "Malware Analizi",
+      "reverse": "Tersine Mühendislik",
+      "wireless": "Kablosuz Hack",
+      "web": "Web Uygulama Hack"
+    },
+    "tools": {
+      "kali": "Kali Linux Araçları",
+      "metasploit": "Metasploit Framework",
+      "burpsuite": "Burp Suite",
+      "nmap": "Nmap Tarayıcı",
+      "wireshark": "Wireshark",
+      "john": "John the Ripper",
+      "hashcat": "Hashcat"
+    },
+    "disclaimer": "Tüm içerikler yalnızca egitim amaçlıdır. Izinsiz hack yasa dısıdır."
+  },
+  "security": {
+    "label": "Siber güvenlik",
+    "title": "güvenlik En Iyi Pratikler & Savunma",
+    "subtitle": "Sektör lideri güvenlik stratejileriyle sistemleri, uygulamaları ve agları koruyun.",
+    "categories": {
+      "audit": "güvenlik Denetimi",
+      "bugbounty": "Bug Bounty Programları",
+      "incident": "Olay Müdahale",
+      "crypto": "Kriptografi",
+      "defense": "Savunma güvenligi",
+      "compliance": "Uyumluluk & Standartlar",
+      "threat": "Tehdit Istihbaratı"
+    },
+    "guides": {
+      "securecoding": "güvenli Kodlama Rehberi",
+      "auth": "Kimlik Dogrulama En Iyi Pratikler",
+      "encryption": "sifreleme Standartları",
+      "firewall": "Firewall Yapılandırması",
+      "monitoring": "güvenlik Izleme"
+    }
+  },
+  "seo": {
+    "label": "SEO & Pazarlama",
+    "title": "SEO Stratejileri & Dijital Pazarlama",
+    "subtitle": "Black hat tekniklerden white hat en iyi pratiklere kadar arama motoru optimizasyonunu ögrenin.",
+    "categories": {
+      "blackhat": "Black Hat SEO",
+      "whitehat": "White Hat SEO",
+      "greyhat": "grey Hat SEO",
+      "technical": "Teknik SEO",
+      "content": "Içerik Pazarlama",
+      "linkbuilding": "Link Olusturma",
+      "analytics": "SEO Analitik"
+    },
+    "techniques": {
+      "onpage": "Sayfa Içi Optimizasyon",
+      "offpage": "Sayfa Dısı Stratejiler",
+      "keywords": "Anahtar Kelime Arastırması",
+      "backlinks": "Backlink Analizi",
+      "schema": "Schema Isaretleme",
+      "speed": "Sayfa Hızı Optimizasyonu"
+    },
+    "tools": {
+      "searchConsole": "google Search Console",
+      "analytics": "google Analytics",
+      "ahrefs": "Ahrefs",
+      "semrush": "SEMrush",
+      "moz": "Moz Pro",
+      "screaming": "Screaming Frog"
+    }
+  },
+  "ethical": {
+    "label": "Etik Hackerlık",
+    "title": "Etik Hackerlık & Sızma Testleri",
+    "subtitle": "güvenlik açıklarını tespit etmek ve düzeltmek için sorumlu hack tekniklerini ögrenin.",
+    "certifications": {
+      "ceh": "Certified Ethical Hacker (CEH)",
+      "oscp": "Offensive Security Certified Professional (OSCP)",
+      "comptia": "CompTIA Security+",
+      "cissp": "CISSP Sertifikası",
+      "gpwn": "gIAC Penetration Tester (gPEN)"
+    },
+    "methodology": {
+      "recon": "Kesif",
+      "scanning": "Tarama & Numaralandırma",
+      "exploitation": "Sömürü",
+      "postexploit": "Sömürü Sonrası",
+      "reporting": "Raporlama"
+    }
+  },
+  "thread": {
+    "create": "Yeni Konu Olustur",
+    "edit": "Konuyu Düzenle",
+    "delete": "Konuyu Sil",
+    "reply": "Cevap Yaz",
+    "quote": "Alıntı Yap",
+    "editPost": "Mesajı Düzenle",
+    "deletePost": "Mesajı Sil",
+    "report": "Bildir",
+    "markSolution": "Çözüm Olarak Isaretle",
+    "unmarkSolution": "Çözüm Isaretini Kaldır",
+    "subscribe": "Takip Et",
+    "unsubscribe": "Takibi Bırak",
+    "lock": "Konuyu Kilitle",
+    "unlock": "Kilidi Aç",
+    "pin": "Konuyu Sabitle",
+    "unpin": "Sabitlemeyi Kaldır",
+    "title": "Konu Baslıgı",
+    "titlePlaceholder": "Açıklayıcı bir baslık girin...",
+    "content": "Içerik",
+    "contentPlaceholder": "Konu içeriginizi yazın...",
+    "category": "Kategori",
+    "tags": "Etiketler",
+    "tagsPlaceholder": "Etiket ekleyin (Enter tusuna basın)",
+    "submit": "Konu Olustur",
+    "preview": "Önizleme",
+    "draft": "Taslak Kaydet",
+    "published": "Yayınlandı",
+    "views_count": "görüntülenme",
+    "created": "Olusturulma",
+    "lastActivity": "Son Aktivite"
+  },
+  "category": {
+    "all": "Tüm Kategoriler",
+    "popular": "Popüler",
+    "recent": "Son",
+    "unanswered": "Cevapsız",
+    "myThreads": "Konularım",
+    "bookmarked": "Yer Isaretleri",
+    "rules": "Kategori Kuralları",
+    "description": "Açıklama",
+    "moderators": "Moderatörler",
+    "subcategories": "Alt Kategoriler"
+  },
+  "user": {
+    "profile": "Kullanıcı Profili",
+    "threads": "Konular",
+    "posts": "Mesajlar",
+    "reputation": "Itibar",
+    "memberSince": "Üyelik Tarihi",
+    "lastSeen": "Son görülme",
+    "role": "Rol",
+    "admin": "Yönetici",
+    "moderator": "Moderatör",
+    "member": "Üye",
+    "banned": "Engellendi",
+    "editProfile": "Profili Düzenle",
+    "sendMessage": "Mesaj gönder",
+    "follow": "Takip Et",
+    "unfollow": "Takibi Bırak",
+    "block": "Engelle",
+    "unblock": "Engeli Kaldır"
+  },
+  "moderation": {
+    "approve": "Onayla",
+    "reject": "Reddet",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "move": "Konuyu Tası",
+    "merge": "Konuları Birlestir",
+    "split": "Konuyu Böl",
+    "warn": "Kullanıcıyı Uyar",
+    "ban": "Kullanıcıyı Engelle",
+    "unban": "Engellemeyi Kaldır",
+    "reason": "Moderasyon Nedeni",
+    "notes": "Moderatör Notları",
+    "reportQueue": "Bildirim Kuyrugu",
+    "pendingApproval": "Onay Bekliyor"
+  },
+  "notifications": {
+    "title": "Bildirimler",
+    "all": "Tüm Bildirimler",
+    "mentions": "Bahsetmeler",
+    "replies": "Cevaplar",
+    "quotes": "Alıntılar",
+    "likes": "Begeniler",
+    "follows": "Yeni Takipçiler",
+    "system": "Sistem Mesajları",
+    "markRead": "Okundu Isaretle",
+    "markAllRead": "Tümünü Okundu Isaretle",
+    "noNotifications": "Bildirim yok",
+    "settings": "Bildirim Ayarları"
+  },
+  "messages": {
+    "title": "Mesajlar",
+    "inbox": "gelen Kutusu",
+    "sent": "gönderilen",
+    "compose": "Yeni Mesaj",
+    "reply": "Cevapla",
+    "forward": "Ilet",
+    "delete": "Sil",
+    "markUnread": "Okunmadı Isaretle",
+    "noMessages": "Mesaj yok",
+    "searchPlaceholder": "Mesaj ara...",
+    "recipient": "Alıcı",
+    "subject": "Konu",
+    "send": "gönder"
+  },
+  "privacy": {
+    "title": "gizlilik Politikası",
+    "description": "XipSoft'in kisisel verilerinizi gDPR ve gizlilik düzenlemelerine uygun olarak nasıl topladıgını, kullandıgını ve korudugunu ögrenin.",
+    "lastUpdated": "Son güncelleme: 11 Nisan 2026",
+    "backToHome": "Ana Sayfaya Dön",
+    "sections": {
+      "introduction": {
+        "title": "1. giris",
+        "content": "XipSoft ('biz', 'bize' veya 'bizim') gizliliginizi korumaya kararlıdır. Bu gizlilik Politikası, web sitemizi ziyaret ettiginizde veya hizmetlerimizi kullandıgınızda bilgilerinizi nasıl topladıgımızı, kullandıgımızı, ifsa ettigimizi ve korudugumuzu açıklar. Lütfen bu gizlilik politikasını dikkatlice okuyun. Hizmetlerimizi kullanarak, bu politikaya uygun olarak bilgilerin toplanmasını ve kullanılmasını kabul edersiniz."
+      },
+      "information": {
+        "title": "2. Topladıgımız Bilgiler",
+        "intro": "Dogrudan bize sagladıgınız bilgileri ve otomatik olarak toplanan bilgileri topluyoruz:",
+        "items": {
+          "personal": "Kisisel Bilgiler: Ad, e-posta adresi, telefon numarası ve sagladıgınız diger iletisim bilgileri",
+          "technical": "Teknik Veriler: IP adresi, tarayıcı türü, cihaz bilgileri, isletim sistemi ve tarama alıskanlıkları",
+          "usage": "Kullanım Verileri: Ziyaret edilen sayfalar, sitede geçirilen süre, tıklamalar ve gezinme düzenleri",
+          "cookies": "Çerezler ve Izleme: Çerezler, pikseller ve benzer teknolojiler aracılıgıyla toplanan bilgiler",
+          "advertising": "Reklam Verileri: Hedefli reklamcılık için google AdSense ve reklam ortakları tarafından paylasılan bilgiler"
+        }
+      },
+      "usage": {
+        "title": "3. Bilgilerinizi Nasıl Kullanıyoruz",
+        "intro": "Topladıgımız bilgileri su amaçlarla kullanıyoruz:",
+        "items": {
+          "provide": "Web sitemizi ve hizmetlerimizi saglamak, isletmek ve sürdürmek",
+          "improve": "Web sitesi deneyimini iyilestirmek, kisisellestirmek ve genisletmek",
+          "personalize": "Içerigi kisisellestirmek ve google AdSense aracılıgıyla alakalı reklamlar göstermek",
+          "communicate": "güncellemeler, destek ve pazarlama hakkında sizinle iletisim kurmak (onayınızla)",
+          "advertising": "google AdSense aracılıgıyla kisisellestirilmis reklamlar sunmak ve reklam etkinligini ölçmek",
+          "security": "Teknik veya güvenlik sorunlarını tespit etmek, önlemek ve ele almak"
+        }
+      },
+      "adsense": {
+        "title": "4. google AdSense ve Reklamcılık",
+        "content": "Web sitemizde reklamlar görüntülemek için google LLC tarafından saglanan bir üçüncü taraf reklamcılık hizmeti olan google AdSense kullanıyoruz. google AdSense, ilgili reklamlar saglamak amacıyla bu ve diger web sitelerini ziyaret etmeniz hakkındaki bilgileri toplamak için çerezler ve web isaretleri kullanır. Bu bilgiler IP adresinizi, tarayıcı türünüzü, görüntülediginiz sayfaları ve tıklama verilerini içerir. google, bu verileri ortak oldugu web siteleri genelinde reklamları kisisellestirmek için kullanabilir.",
+        "optout": "google Reklam Ayarları'na (https://adssettings.google.com) giderek veya www.aboutads.info adresini ziyaret ederek kisisellestirilmis reklamcılıgı devre dısı bırakabilirsiniz. Çerez tercihlerinizi tarayıcı ayarlarınız aracılıgıyla da yönetebilirsiniz."
+      },
+      "sharing": {
+        "title": "5. Bilgi Paylasımı ve Ifsası",
+        "intro": "Kisisel bilgilerinizi satmıyoruz. Bilgilerinizi su kisilerle paylasabiliriz:",
+        "items": {
+          "service": "Hizmet Saglayıcılar: Adımıza hizmetler gerçeklestiren üçüncü taraf sirketler (barındırma, analitik, reklamcılık)",
+          "advertising": "Reklam Ortakları: Ilgili reklamlar sunmak için google AdSense ve diger reklam agları",
+          "analytics": "Analitik Saglayıcılar: Web sitesi kullanımını anlamak için google Analytics ve benzer hizmetler",
+          "legal": "Yasal gereklilikler: Kanun, düzenleme veya yasal süreç tarafından gerektiginde"
+        }
+      },
+      "cookies": {
+        "title": "6. Çerezler ve Izleme Teknolojileri",
+        "content": "Web sitemizdeki aktiviteyi izlemek ve hizmetlerimizi iyilestirmek için çerezler ve benzer izleme teknolojileri kullanıyoruz. google AdSense, daha alakalı reklamlar sunmak ve bir reklamı görme sayınızı sınırlamak için DoubleClick çerezleri kullanır.",
+        "manage": "Çerezleri tarayıcı ayarlarınız aracılıgıyla kontrol edebilirsiniz. Ancak, çerezleri devre dısı bırakmak, web sitemizin belirli özelliklerini kullanma yeteneginizi ve görüntülenen reklamların uygunlugunu etkileyebilir."
+      },
+      "security": {
+        "title": "7. Veri güvenligi",
+        "content": "Kisisel bilgilerinizi korumak için uygun teknik ve organizasyonel güvenlik önlemleri uyguluyoruz. Ancak, Internet üzerinden iletim veya elektronik depolama yöntemi %100 güvenli degildir. Kisisel bilgilerinizi korumak için ticari olarak kabul edilebilir araçları kullanmaya çalıssak da, mutlak güvenligini garanti edemeyiz."
+      },
+      "rights": {
+        "title": "8. gizlilik Haklarınız",
+        "intro": "Bulundugunuz yere baglı olarak, asagıdaki haklara sahip olabilirsiniz:",
+        "items": {
+          "access": "Erisim: Hakkınızda tuttugumuz kisisel verilerin bir kopyasını isteyin",
+          "correct": "Düzeltme: Yanlıs veya eksik verilerin düzeltilmesini isteyin",
+          "delete": "Silme: Belirli kosullar altında kisisel verilerinizin silinmesini isteyin",
+          "object": "Itiraz: Reklamcılık dahil belirli amaçlar için kisisel verilerinizin islenmesine itiraz edin",
+          "portable": "Tasınabilirlik: Verilerinizin baska bir hizmet saglayıcıya aktarılmasını isteyin",
+          "withdraw": "Onayı geri Çekme: Islemenin onaya dayandıgı durumlarda herhangi bir zamanda onayı geri çekin"
+        }
+      },
+      "children": {
+        "title": "9. Çocukların gizliligi",
+        "content": "Hizmetlerimiz 16 yasın altındaki bireyler için tasarlanmamıstır. Çocuklardan bilerek kisisel bilgi toplamıyoruz. Çocuklardan yanlıslıkla kisisel veri topladıgımızı fark edersek, bu bilgileri silmek için adımlar atacagız."
+      },
+      "changes": {
+        "title": "10. Bu Politikadaki Degisiklikler",
+        "content": "gizlilik Politikamızı zaman zaman güncelleyebiliriz. Yeni gizlilik Politikasını bu sayfada yayınlayarak ve 'Son güncelleme' tarihini güncelleyerek sizi herhangi bir degisiklik hakkında bilgilendirecegiz. Bu gizlilik Politikasını periyodik olarak gözden geçirmeniz önerilir."
+      },
+      "contact": {
+        "title": "11. Bizimle Iletisime geçin",
+        "intro": "Bu gizlilik Politikası hakkında sorularınız varsa veya gizlilik haklarınızı kullanmak istiyorsanız, lütfen bizimle iletisime geçin:",
+        "email": {
+          "label": "E-posta:",
+          "value": "xiplarex@gmail.com"
+        },
+        "address": {
+          "label": "Adres:",
+          "value": "XipSoft Yazılım & Teknoloji Çözümleri"
+        }
+      }
+    }
+  },
+  "terms": {
+    "title": "Hizmet sartları",
+    "description": "XipSoft'in web sitesi, hizmetleri ve topluluk platformunu kullanımınızı düzenleyen hüküm ve kosullar.",
+    "lastUpdated": "Son güncelleme: 11 Nisan 2026",
+    "backToHome": "Ana Sayfaya Dön",
+    "sections": {
+      "acceptance": {
+        "title": "1. sartların Kabulü",
+        "content": "XipSoft'in web sitesine, hizmetlerine veya topluluk platformuna eriserek veya kullanarak, bu Hizmet sartlarına ve tüm geçerli yasa ve düzenlemelere baglı kalmayı kabul edersiniz. Bu sartlardan herhangi birini kabul etmiyorsanız, bu siteyi kullanmanız veya erismeniz yasaktır."
+      },
+      "services": {
+        "title": "2. Hizmetlerimiz",
+        "content": "XipSoft asagıdaki hizmetleri saglar:",
+        "items": {
+          "web": "Web yazılım gelistirme ve tasarım hizmetleri",
+          "mobile": "iOS, Android ve çapraz platform için mobil uygulama gelistirme",
+          "desktop": "Windows, macOS ve Linux için masaüstü yazılım gelistirme",
+          "consulting": "Teknoloji danısmanlıgı, siber güvenlik ve SEO hizmetleri",
+          "community": "Topluluk, gelistirici profilleri, blog platformu ve is ilanı panosu"
+        }
+      },
+      "accounts": {
+        "title": "3. Kullanıcı Hesapları",
+        "intro": "Bizimle bir hesap olusturdugunuzda, sunları kabul edersiniz:",
+        "items": {
+          "accurate": "Kayıt sırasında dogru, güncel ve eksiksiz bilgi saglamak",
+          "secure": "giris bilgilerinizin güvenligini ve gizliligini korumak",
+          "responsible": "Hesabınız altında gerçeklesen tüm faaliyetlerden sorumluluk kabul etmek",
+          "notify": "Hesabınızın yetkisiz kullanımı hakkında bizi derhal bilgilendirmek"
+        }
+      },
+      "intellectual": {
+        "title": "4. Fikri Mülkiyet Hakları",
+        "content": "Web sitesi, orijinal içerigi, özellikleri, islevselligi, yazılımı ve tasarımı XipSoft'un münhasır mülkiyetinde olmaya devam edecektir. Içerik telif hakkı, ticari marka ve diger yasalarla korunmaktadır. Önceden yazılı izin olmadan ticari markalarımız ve ticari görünümümüz herhangi bir ürün veya hizmetle baglantılı olarak kullanılamaz."
+      },
+      "userContent": {
+        "title": "5. Kullanıcı Tarafından Olusturulan Içerik",
+        "intro": "Platformumuzda yayınladıgınız içerikten siz sorumlusunuz. Içerik yayınlayarak, sunları içermedigini onaylarsınız:",
+        "items": {
+          "illegal": "Herhangi bir geçerli yasa, düzenleme veya üçüncü taraf haklarını ihlal etmek",
+          "harmful": "Zararlı, saldırgan veya uygunsuz materyal içermek",
+          "infringing": "Baskalarının fikri mülkiyet haklarını ihlal etmek",
+          "spam": "Izinsiz spam, reklam veya tanıtım materyali olusturmak"
+        }
+      },
+      "prohibited": {
+        "title": "6. Yasaklanmıs Faaliyetler",
+        "intro": "Asagıdaki faaliyetlerden hiçbirine katılmamayı kabul edersiniz:",
+        "items": {
+          "violate": "geçerli herhangi bir yerel, eyalet, ulusal veya uluslararası yasayı ihlal etmek",
+          "exploit": "Resit olmayanları herhangi bir sekilde istismar etmek, zarar vermek veya istismar etmeye veya zarar vermeye çalısmak",
+          "interfere": "Web sitesinin bütünlügüne veya performansına müdahale etmek veya bozmak",
+          "unauthorized": "Web sitesinin veya diger sistemlerin veya agların herhangi bir bölümüne yetkisiz erisim elde etmeye çalısmak",
+          "scrape": "Web sitesine erismek için herhangi bir robot, örümcek, kazıyıcı veya baska otomatik araç kullanmak"
+        }
+      },
+      "disclaimer": {
+        "title": "7. garantilerin Reddi",
+        "content": "Web sitesi ve içerigi, açık veya zımni herhangi bir garanti olmaksızın 'oldugu gibi' ve 'mevcut oldugu gibi' temelinde saglanmaktadır. XipSoft, web sitesinin kesintisiz, güvenli veya hatasız olacagını veya hataların düzeltilecegini garanti etmez."
+      },
+      "limitation": {
+        "title": "8. Sorumluluk Sınırlandırması",
+        "content": "Hiçbir durumda XipSoft, yöneticileri, çalısanları veya acenteleri, web sitesine veya hizmetlere erisiminizden veya kullanımınızdan veya bunlara erisememenizden veya kullanamamanızdan kaynaklanan kar kaybı, veri, kullanım, serefiye veya diger maddi olmayan kayıplar dahil ancak bunlarla sınırlı olmamak üzere herhangi bir dolaylı, arızi, özel, sonuçta ortaya çıkan veya cezai zarardan sorumlu tutulamaz."
+      },
+      "termination": {
+        "title": "9. Fesih",
+        "content": "Bu sartları ihlal etmeniz dahil ancak bunlarla sınırlı olmamak üzere herhangi bir nedenle, önceden bildirim veya sorumluluk olmaksızın hizmetlerimize erisiminizi derhal sonlandırabilir veya askıya alabiliriz. Fesih üzerine, web sitesini ve hizmetleri kullanma hakkınız derhal sona erecektir."
+      },
+      "governing": {
+        "title": "10. geçerli Kanun",
+        "content": "Bu sartlar, kanunlar ihtilafı hükümlerine bakılmaksızın, geçerli yasalara tabi olacak ve bunlara göre yorumlanacaktır. Bu sartların herhangi bir hakkını veya hükmünü uygulama konusundaki basarısızlıgımız, bu haklardan feragat olarak degerlendirilmeyecektir."
+      },
+      "changes": {
+        "title": "11. sartlardaki Degisiklikler",
+        "content": "Bu sartları herhangi bir zamanda degistirmek veya revize etmek hakkını saklı tutuyoruz. Revizyon önemliyse, yeni sartlar yürürlüge girmeden en az 30 gün önce bildirimde bulunacagız. Önemli degisikligin ne olusturacagı tamamen bizim takdirimize baglı olacaktır."
+      },
+      "contact": {
+        "title": "12. Iletisim Bilgileri",
+        "intro": "Bu sartlar hakkında sorularınız varsa, lütfen bizimle iletisime geçin:",
+        "email": {
+          "label": "E-posta:",
+          "value": "xiplarex@gmail.com"
+        },
+        "address": {
+          "label": "Adres:",
+          "value": "XipSoft Yazılım & Teknoloji Çözümleri"
+        }
+      }
+    }
+  },
+  "cookies": {
+    "title": "Çerez Politikası",
+    "description": "XipSoft'in google AdSense reklam çerezleri dahil olmak üzere çerezleri ve izleme teknolojilerini nasıl kullandıgını ögrenin.",
+    "lastUpdated": "Son güncelleme: 11 Nisan 2026",
+    "backToHome": "Ana Sayfaya Dön",
+    "sections": {
+      "what": {
+        "title": "1. Çerezler Nedir",
+        "content": "Çerezler, bir web sitesini ziyaret ettiginizde cihazınızda depolanan küçük metin dosyalarıdır. Web sitesinin tercihlerinizi hatırlamasına, siteyi nasıl kullandıgınızı anlamasına ve deneyiminizi iyilestirmesine yardımcı olurlar. Çerezler 'kalıcı' (belirli bir süre cihazınızda kalan) veya 'oturum' çerezleri (tarayıcınızı kapattıgınızda silinen) olabilir."
+      },
+      "types": {
+        "title": "2. Kullandıgımız Çerez Türleri",
+        "intro": "Asagıdaki çerez türlerini kullanıyoruz:",
+        "essential": {
+          "title": "gerekli Çerezler",
+          "content": "Bu çerezler web sitesinin düzgün çalısması için gereklidir. güvenlik, ag yönetimi ve erisilebilirlik gibi temel islevleri etkinlestirirler. Bu çerezlerden çıkamazsınız."
+        },
+        "analytics": {
+          "title": "Analitik Çerezler",
+          "content": "Bu çerezler, ziyaretçilerin web sitemizle nasıl etkilesime girdigini anlamamıza yardımcı olur ve bilgileri anonim olarak toplar ve raporlar. Web sitesi kullanımını analiz etmek ve hizmetlerimizi iyilestirmek için google Analytics kullanıyoruz."
+        },
+        "advertising": {
+          "title": "Reklam Çerezleri",
+          "content": "Bu çerezler, alakalı reklamlar sunmak ve reklam etkinligini ölçmek için kullanılır. Web genelinde daha alakalı reklamlar sunmak ve reklam sıklıgını sınırlamak için DoubleClick çerezleri kullanan google AdSense kullanıyoruz."
+        },
+        "functional": {
+          "title": "Fonksiyonel Çerezler",
+          "content": "Bu çerezler, dil tercihlerinizi, tema ayarlarınızı ve giris durumunuzu hatırlamak gibi gelismis islevsellik ve kisisellestirmeyi etkinlestirir."
+        }
+      },
+      "adsense": {
+        "title": "3. google AdSense Çerezleri",
+        "content": "Web sitemizde reklamlar görüntülemek için google AdSense kullanıyoruz. google AdSense, kullanıcıların web sitemizi ve Internet'teki diger web sitelerini önceki ziyaretlerine dayalı olarak reklamlar sunmaya yardımcı olmak için çerezler kullanır.",
+        "details": "DoubleClick çerezinin kullanımı, google ve ortaklarının, sitemizi ve/veya Internet'teki diger siteleri ziyaretlerine dayalı olarak kullanıcılarımıza reklamlar sunmasını saglar. Kullanıcılar, Reklam Ayarları'nı (https://adssettings.google.com) ziyaret ederek ilgi alanına dayalı reklamcılık için DoubleClick çerezinin kullanımını devre dısı bırakabilir."
+      },
+      "thirdParty": {
+        "title": "4. Üçüncü Taraf Çerezleri",
+        "intro": "Kendi çerezlerimize ek olarak, kullanım istatistiklerini raporlamak, reklamlar sunmak vb. için çesitli üçüncü taraf çerezleri de kullanabiliriz. Bunlar sunları içerir:",
+        "items": {
+          "google": "Reklamcılık ve web sitesi analitigi için google AdSense ve google Analytics",
+          "analytics": "Kullanıcı davranısını anlamak ve hizmetlerimizi iyilestirmek için analitik saglayıcılar",
+          "social": "Paylasım islevselligi için sosyal medya platformları (içerik paylasmayı seçerseniz)",
+          "advertising": "Ilgili reklamlar sunmamıza yardımcı olan reklam agları"
+        }
+      },
+      "manage": {
+        "title": "5. Çerezleri Yönetme",
+        "content": "Çerezleri kabul etme veya reddetme hakkına sahipsiniz. Bir çerezin ne zaman gönderildigini belirtmek için tarayıcı ayarlarınızı degistirerek çerez reddederek çerez tercihlerinizi kullanabilirsiniz.",
+        "browser": "Çogu web tarayıcısı, tarayıcı ayarları aracılıgıyla çogu çerez üzerinde bir miktar kontrol saglar. Çerezler hakkında daha fazla bilgi edinmek için, hangi çerezlerin belirlendigini görme dahil, www.aboutcookies.org veya www.allaboutcookies.org adreslerini ziyaret edin.",
+        "browsers": {
+          "chrome": "google Chrome: Ayarlar → gizlilik ve güvenlik → Çerezler",
+          "firefox": "Mozilla Firefox: Seçenekler → gizlilik ve güvenlik → Çerezler",
+          "safari": "Apple Safari: Tercihler → gizlilik → Çerezler",
+          "edge": "Microsoft Edge: Ayarlar → Çerezler ve Site Izinleri"
+        }
+      },
+      "consent": {
+        "title": "6. Onay ve Çerez Banner'ı",
+        "content": "Web sitemizi ilk ziyaret ettiginizde, gerekli olmayan çerezleri ayarlamak için onayınızı isteyecegiz. Onayınızı herhangi bir zamanda verebilir veya geri çekebilirsiniz. Onayın geri çekilmesi, geri çekilmeden önce onaya dayalı islemenin hukuka uygunlugunu etkilemez."
+      },
+      "updates": {
+        "title": "7. Bu Politikadaki güncellemeler",
+        "content": "Teknoloji, düzenleme veya is uygulamalarındaki degisiklikleri yansıtmak için bu Çerez Politikasını zaman zaman güncelleyebiliriz. Herhangi bir degisiklik, güncellenmis bir revizyon tarihi ile bu sayfada yayınlanacaktır."
+      },
+      "contact": {
+        "title": "8. Bizimle Iletisime geçin",
+        "intro": "Çerez kullanımımız hakkında sorularınız varsa, lütfen bizimle iletisime geçin:",
+        "email": {
+          "label": "E-posta:",
+          "value": "xiplarex@gmail.com"
+        },
+        "address": {
+          "label": "Adres:",
+          "value": "XipSoft Yazılım & Teknoloji Çözümleri"
+        }
+      }
+    }
+  },
+  "consent": {
+    "title": "Çerez ve Reklam Onayı",
+    "description": "Içerik ve reklamları kisisellestirmek, sosyal medya özellikleri saglamak ve trafigimizi analiz etmek için çerezler ve google AdSense kullanıyoruz. Tüm çerezlerin kullanımına onay vermek için 'Kabul Et'i veya yalnızca gerekli çerezleri kullanmak için 'Reddet'i tıklayın.",
+    "showDetails": "Detayları göster",
+    "hideDetails": "Detayları gizle",
+    "accept": "Tüm Çerezleri Kabul Et",
+    "decline": "gerekli Olmayanları Reddet",
+    "details": {
+      "cookies": {
+        "title": "Çerezler ve Izleme",
+        "content": "Site islevselligi için gerekli çerezler ve google AdSense aracılıgıyla analitik ve kisisellestirilmis reklamcılık için istege baglı çerezler kullanıyoruz."
+      },
+      "data": {
+        "title": "Veri Toplama",
+        "content": "google AdSense, ilgili reklamlar sunmak için IP adresinizi, tarayıcı türünüzü, ziyaret edilen sayfaları ve tarama davranısınızı toplayabilir."
+      },
+      "control": {
+        "title": "Kontrol Sizin",
+        "content": "Çerez tercihlerinizi istedigi zaman degistirebilirsiniz. Daha fazla bilgi için gizlilik Politikamız ve Çerez Politikamızı ziyaret edin."
+      }
+    },
+    "links": {
+      "privacy": "gizlilik Politikası",
+      "cookies": "Çerez Politikası",
+      "terms": "Hizmet sartları"
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradıgınız sayfa silinmis, adı degistirilmis veya geçici olarak ulasılamıyor olabilir.",
+    "backHome": "Ana Sayfaya Dön",
+    "viewServices": "Hizmetlerimizi Incele"
+  }
+}

@@ -1,0 +1,381 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── SAFE AREA (iPhone notch / Dynamic Island) ─────────── */
+:root {
+  --safe-top:    env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left:   env(safe-area-inset-left);
+  --safe-right:  env(safe-area-inset-right);
+}
+
+/* ─── MOBIL TAsMA KORUMASI ───────────────────────────────── */
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* iOS Safari momentum scroll */
+body {
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  padding-left:  env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* ─── FONT ───────────────────────────────────────────────── */
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+/* Tipografi yardımcı sınıfları (LCP hero dahil) */
+.-display,
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+.-body,
+.font-body {
+  font-family: var(--font-body), sans-serif;
+}
+.-mono,
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+/* ─── BAsLIKLAR — glass font ─────────────────────────────── */
+h1, h2, h3, h4, h5, h6,
+.section-title,
+.section-title-glow,
+[class*="heading"],
+[class*="-display"] {
+  font-family: var(--font-display), system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+  color: transparent !important;
+  background: linear-gradient(
+    168deg,
+    #ffffff 0%,
+    #d8eeff 10%,
+    #7ab8f5 24%,
+    #ffffff 38%,
+    #b0d8ff 52%,
+    #4a9fd4 66%,
+    #c8e8ff 80%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 24px rgba(255, 255, 255, 0.20), 0 4px 20px rgba(0, 0, 0, 0.22);
+}
+
+.section-title-glow,
+.glass-heading {
+  display: inline-block;
+  font-family: var(--font-display), system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: transparent !important;
+  background: linear-gradient(
+    168deg,
+    #ffffff 0%,
+    #d8eeff 10%,
+    #7ab8f5 24%,
+    #ffffff 38%,
+    #b0d8ff 52%,
+    #4a9fd4 66%,
+    #c8e8ff 80%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent !important;
+  text-shadow: 0 6px 20px rgba(255, 255, 255, 0.18), 0 0 28px rgba(83, 110, 255, 0.18);
+}
+
+.navbar, .-navbar {
+  font-family: var(--font-navbar), var(--font-display), var(--font-body), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── BASE BODY — Koyu (Varsayılan) ─────────────────────── */
+body {
+  background-color: #04050d;
+  background-image:
+    radial-gradient(circle at 15% 12%, rgba(255,255,255,0.18), transparent 18%),
+    radial-gradient(circle at 80% 20%, rgba(167,139,250,0.16), transparent 15%),
+    radial-gradient(circle at 25% 75%, rgba(34,211,238,0.12), transparent 12%),
+    radial-gradient(circle at 70% 80%, rgba(245,158,11,0.10), transparent 16%),
+    radial-gradient(circle at 50% 40%, rgba(255,255,255,0.08), transparent 8%),
+    radial-gradient(circle at 85% 50%, rgba(255,255,255,0.06), transparent 5%),
+    linear-gradient(180deg, #02030a 0%, #050611 30%, #020209 100%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-text-primary);
+  position: relative;
+  isolation: isolate;
+  font-family: var(--font-body), sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.22) 0%, transparent 1.15%),
+    radial-gradient(circle, rgba(255,255,255,0.18) 0%, transparent 1.5%),
+    radial-gradient(circle, rgba(255,255,255,0.14) 0%, transparent 2px);
+  background-size: 160px 160px, 120px 120px, 260px 260px;
+  opacity: 0.24;
+}
+
+/* body::before ambient gradient kaldırıldı — AmbientLantern orbs karsılıyor */
+
+/* ─── AÇIK MOD BODY — artık kullanılmıyor, site her zaman dark ─── */
+
+/* ─── /BLOg TEMA DEgIsKENLERI ─────────────────────── */
+:root,
+html[class="dark"],
+html.dark {
+  ---bg:             #05071a;
+  ---text:           #e4e4e7;
+  --blob-1: rgba(251, 191, 36,  0.22);
+  --blob-2: rgba(251, 113, 133, 0.16);
+  --blob-3: rgba(167, 139, 250, 0.14);
+  --blob-4: rgba(99,  60,  180, 0.10);
+  --blob-5: rgba(34,  211, 238, 0.06);
+  background-color: var(---bg);
+  color: var(---text);
+}
+
+
+/* ─── NAVBAR ─────────────────────────────────────────────── */
+nav:not(footer nav), .navbar {
+  backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 4px 8px -1px rgba(0, 0, 0, 0.15),
+    0 2px 4px -1px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+nav .-navbar {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Navbar hover — ates gradyan metin efekti (korundu) */
+nav [data-nav-link] a,
+nav [data-nav-link] a span,
+nav [data-nav-link] a.-navbar,
+nav button.-navbar,
+nav button.-navbar span {
+  transition: all 0.25s ease;
+}
+
+nav [data-nav-link]:hover a,
+nav [data-nav-link]:hover a span,
+nav [data-nav-link]:hover a.-navbar,
+nav button.-navbar:hover,
+nav button.-navbar:hover span {
+  background: linear-gradient(135deg, #a78bfa, #22d3ee) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: transparent !important;
+  filter: drop-shadow(0 0 8px rgba(167, 139, 250, 0.55));
+  text-shadow: none;
+}
+
+
+/* ─── SCROLLBAR ──────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+
+:root::-webkit-scrollbar-track,
+html.dark::-webkit-scrollbar-track { background: #09090b; }
+:root::-webkit-scrollbar-thumb,
+html.dark::-webkit-scrollbar-thumb { background: #27272a; border-radius: 3px; }
+:root::-webkit-scrollbar-thumb:hover,
+html.dark::-webkit-scrollbar-thumb:hover { background: #3f3f46; }
+
+/* ─── SELECTION ──────────────────────────────────────────── */
+::selection {
+  background: rgba(99, 102, 241, 0.25);
+  color: #fff;
+}
+
+/* ─── PRISM BORDER HOVER ─────────────────────────────────── */
+.prism-border-gradient {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #22d3ee 0%, #a78bfa 50%, #fb7185 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  &:hover::before { opacity: 1; }
+}
+
+/* ─── PROFILE CARD ───────────────────────────────────────── */
+.profile-card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.02);
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(167,139,250,0.08) 50%, rgba(34,211,238,0.06) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    background:
+      radial-gradient(ellipse at 20% 0%, rgba(34,211,238,0.03) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 100%, rgba(251,113,133,0.02) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35), 0 2px 8px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.04);
+    &::before { opacity: 1; }
+    &::after { opacity: 1; }
+  }
+}
+
+/* ─── BLOg CARD gLASS ────────────────────────────────────── */
+.blog-card-glass {
+  background: var(--color-card-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* ─── GLASS CARD — Standart kart arkaplanı ──────────────── */
+.glass-card {
+  background: var(--color-card-bg);
+  backdrop-filter: blur(20px) saturate(130%);
+  -webkit-backdrop-filter: blur(20px) saturate(130%);
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+}
+
+/* ─── ORTAK BÖLÜM BAsLIK STILI ───────────────────────────── */
+.section-title-glow {
+  display: inline-block;
+  /* Solid (dolu) color by default, overridable with --section-title-color */
+  color: var(--section-title-color, #8b5cf6);
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  /* Stronger, colored glow to emphasize the filled color */
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.55), 0 0 28px rgba(139, 92, 246, 0.18);
+  letter-spacing: 0.01em;
+}
+
+/* ─── ANIMASYONLAR ───────────────────────────────────────── */
+@keyframes card-icon-float {
+  0%, 100% { transform: var(--icon-rotate) translateY(0px); }
+  50%       { transform: var(--icon-rotate) translateY(-4px); }
+}
+.card-float-icon { animation: card-icon-float 6s ease-in-out infinite; }
+
+/* ─── MOUSE PARALLAX gRADIENT — Kostuklu, kaldırıldı ───────── */
+/*
+.mouse-blob-1,
+.mouse-blob-2,
+.mouse-blob-3 {
+  display: none;
+}
+*/
+
+/* ─── NOISE OVERLAY — gürültü efekti kaldırıldı ───────────────── */
+.noise-overlay {
+  display: none;
+}
+
+/* ─── PRINT ──────────────────────────────────────────────── */
+@media print {
+
+}
+
+/* ─── BÖLÜM AYIRICI ÇİZgİLER — Beyaz/Cyan LED ─────────── */
+.section-divider,
+hr.section-divider,
+.led-section-divider {
+  border: none;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(148, 163, 184, 0.20) 25%,
+    rgba(200, 220, 240, 0.40) 50%,
+    rgba(148, 163, 184, 0.20) 75%,
+    transparent
+  );
+  box-shadow: 0 0 4px rgba(200, 220, 240, 0.08);
+  margin: 2rem 0;
+}
+
+/* ─── KART LED BORDER gLOW ───────────────────────────── */
+/* Kart ve kutularda LED/gradient border efekti */
+.card-led-border {
+  position: relative;
+}
+.card-led-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(249, 115, 22, 0.25) 0%,
+    rgba(167, 139, 250, 0.20) 50%,
+    rgba(34, 211, 238, 0.15) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.card-led-border:hover::before {
+  opacity: 1;
+}

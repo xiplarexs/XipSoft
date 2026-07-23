@@ -1,0 +1,178 @@
+/* Ana sayfa LCP - inline/link ile erken yuklenir; Tailwind/font beklemez */
+.home-lcp-hero {
+  position: relative;
+  min-height: 38vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1.25rem;
+  padding: 2.5rem 1rem 1rem;
+}
+
+.home-lcp-badge {
+  margin: 0;
+  font: 600 0.7rem/1.4 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d8b4fe;
+  padding: 0.35rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.home-lcp-title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.65rem;
+  margin: 0;
+  font: 800 clamp(2.75rem, 12vw, 5rem) / 1.05 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.home-lcp-title-xip {
+  color: #fb923c;
+}
+
+.home-lcp-title-soft {
+  color: #fbbf24;
+}
+
+.home-lcp-line {
+  width: 12rem;
+  max-width: 70vw;
+  height: 2px;
+  border-radius: 9999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(249, 115, 22, 0.55),
+    transparent
+  );
+}
+
+@media (min-width: 640px) {
+  .home-lcp-line {
+    width: 16rem;
+  }
+}
+
+/* Tagline */
+.home-lcp-tagline {
+  margin: 0;
+  font: 400 clamp(0.95rem, 2.5vw, 1.15rem) / 1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: rgba(228, 228, 231, 0.72);
+  max-width: 36rem;
+  text-align: center;
+}
+
+/* CTA butonlari */
+.home-lcp-cta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+
+.home-lcp-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #f97316, #fb923c);
+  color: #fff;
+  font: 600 0.9rem/1 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.home-lcp-btn-primary:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.home-lcp-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 1.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(168, 85, 247, 0.35);
+  background: rgba(0, 0, 0, 0.35);
+  color: #d8b4fe;
+  font: 500 0.9rem/1 ui-sans-serif, system-ui, sans-serif;
+  text-decoration: none;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.home-lcp-btn-secondary:hover {
+  border-color: rgba(168, 85, 247, 0.65);
+  background: rgba(88, 28, 135, 0.2);
+  transform: translateY(-1px);
+}
+
+/* Istatistikler */
+.home-lcp-stats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-top: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.home-lcp-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0 1.25rem;
+}
+
+.home-lcp-stat-num {
+  font: 700 1.6rem/1 ui-sans-serif, system-ui, sans-serif;
+  color: #fb923c;
+}
+
+.home-lcp-stat-label {
+  font: 400 0.72rem/1.3 ui-sans-serif, system-ui, sans-serif;
+  color: rgba(228, 228, 231, 0.55);
+  text-align: center;
+  max-width: 8rem;
+}
+
+.home-lcp-stat-divider {
+  width: 1px;
+  height: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .home-lcp-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .home-lcp-btn-primary,
+  .home-lcp-btn-secondary {
+    justify-content: center;
+  }
+
+  .home-lcp-stats {
+    gap: 0.5rem;
+  }
+
+  .home-lcp-stat-divider {
+    display: none;
+  }
+}

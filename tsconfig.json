@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+        "target": "es2022",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "types": [
+      "node",
+      "react"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,                      // noImplicitAny, strictNullChecks, strictFunctionTypes vb. hepsini açar
+    "noImplicitAny": true,               // explicit 'any' kullanmak zorunda kalırsın — gizli tip kayıpları engellenir
+    "strictNullChecks": true,            // null/undefined olabilecek degerler kontrol edilmeden kullanılamaz
+    "noImplicitReturns": true,           // fonksiyon tüm kod yollarında deger döndürmek zorunda
+    "noFallthroughCasesInSwitch": true,  // switch case'lerinde kasıtsız fallthrough engellenir
+    "noUncheckedIndexedAccess": true,    // dizi/obje index erisimlerinde undefined olasılıgı hesaba katılır
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "ignoreDeprecations": "5.0",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/seobot/*": [
+        "./src/lib/seo/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.mdx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next"
+  ]
+}

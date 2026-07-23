@@ -1,0 +1,79 @@
+/*
+   XipSoft — Renk Sistemi (Minified)
+   Tüm dekoratif efektler kaldırıldı.
+*/
+
+:root {
+  /* Zemin */
+  --color-bg:            #05071a;
+  --color-surface-1:     rgba(12, 13, 18, 0.50);
+  --color-surface-2:     rgba(18, 20, 28, 0.65);
+  --color-surface-3:     rgba(25, 28, 40, 0.80);
+
+  /* Kart zeminleri — tek standart */
+  --color-card-bg:       rgba(255, 255, 255, 0.03);
+  --color-card-bg-hover: rgba(255, 255, 255, 0.05);
+  --color-tag-bg:        rgba(255, 255, 255, 0.04);
+
+  /* Kenarlık */
+  --color-border:        rgba(148, 163, 184, 0.07);
+  --color-border-hover:  rgba(148, 163, 184, 0.16);
+
+  /* Metin */
+  --color-text-primary:   #e2e8f0;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted:     #475569;
+
+  /* Prism/Aksan */
+  --prism-violet: #a78bfa;
+  --prism-cyan:   #22d3ee;
+  --prism-rose:   #fb7185;
+  --prism-purple: #c084fc;
+  --prism-emerald:#34d399;
+  --prism-blue:   #3b82f6;
+  --accent-gold:  #fbbf24;
+
+  /* glassmorphism */
+  --glass-blur:   blur(28px) saturate(130%);
+  --glass-blur-sm: blur(16px) saturate(120%);
+}
+
+html.light, [data-theme="light"] {
+  --color-bg:            #f0f2f5;
+  --color-surface-1:     rgba(255, 255, 255, 0.82);
+  --color-surface-2:     rgba(248, 249, 251, 0.90);
+  --color-surface-3:     rgba(238, 240, 244, 0.95);
+
+  --color-border:        rgba(71, 85, 105, 0.10);
+  --color-border-hover:  rgba(71, 85, 105, 0.22);
+
+  --color-text-primary:   #0f172a;
+  --color-text-secondary: #334155;
+  --color-text-muted:     #64748b;
+}
+
+html.light body {
+  background-color: #f0f2f5 !important;
+  color: #0f172a !important;
+}
+
+/* ─── METIN UTILITY ──────────────────────────────────────── */
+.text-primary   { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+.text-muted     { color: var(--color-text-muted); }
+
+/* ─── KART UTILITY ──────────────────────────────────────── */
+.glass-card-bg {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+}
+.glass-card-bg:hover {
+  background: var(--color-card-bg-hover);
+  border-color: var(--color-border-hover);
+}
+
+/* ─── TAG UTILITY ──────────────────────────────────────── */
+.tag-bg {
+  background: var(--color-tag-bg);
+  border: 1px solid var(--color-border);
+}
