@@ -9,10 +9,10 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Button } from "@/components/Ui/Button";
 import { PAgE_ACCENTS, BRAND_COLORS } from "@/config/brand.config";
-import type { CardItem } from "@/components/Ui/Scrollgrid3D/ScrollGrid3DCards";
+import type { CardItem } from "@/components/Ui/ScrollGrid3D/ScrollGrid3DCards";
 
 const Scrollgrid3DCards = dynamic(
-  () => import("@/components/Ui/Scrollgrid3D/ScrollGrid3DCards"),
+  () => import("@/components/Ui/ScrollGrid3D/ScrollGrid3DCards"),
   { ssr: false }
 );
 

@@ -11,10 +11,10 @@ import {
 import { teklifModal } from "@/components/Common/TeklifModal/TeklifModal";
 import { BRAND_COLORS } from "@/config/brand.config";
 import ParallaxHero from "@/components/Ui/ParallaxHero/ParallaxHero";
-import type { CardItem } from "@/components/Ui/Scrollgrid3D/ScrollGrid3DCards";
+import type { CardItem } from "@/components/Ui/ScrollGrid3D/ScrollGrid3DCards";
 
 const Scrollgrid3DCards = dynamic(
-  () => import("@/components/Ui/Scrollgrid3D/ScrollGrid3DCards"),
+  () => import("@/components/Ui/ScrollGrid3D/ScrollGrid3DCards"),
   { ssr: false }
 );
 

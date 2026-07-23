@@ -17,7 +17,7 @@ const Homebar = dynamic(() => import("@/components/Common/Homebar/Homebar"));
 const DeviceTracker = dynamic(() => import("@/components/Common/DeviceTracker/DeviceTracker"));
 const Initializer = dynamic(() => import("@/components/Common/FontInitializer"));
 const AdSenseConsent = dynamic(() => import("@/components/Common/AdSenseConsent/AdSenseConsent"));
-const GoogleAdSense = dynamic(() => import("@/components/Common/googleAdSense/GoogleAdSense"));
+const GoogleAdSense = dynamic(() => import("@/components/Common/GoogleAdSense/GoogleAdSense"));
 const WebVitals = dynamic(() => import("@/components/Common/WebVitals/WebVitals"));
 
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {

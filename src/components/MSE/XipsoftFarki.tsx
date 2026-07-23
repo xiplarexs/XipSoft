@@ -3,10 +3,10 @@ import { Trophy, ThumbsUp, MessageSquare, FolderOpen, Palette } from "lucide-rea
 import { useTranslations } from "next-intl";
 import dynamic from "next/dynamic";
 import { BRAND_COLORS } from "@/config/brand.config";
-import type { CardItem } from "@/components/Ui/Scrollgrid3D/ScrollGrid3DCards";
+import type { CardItem } from "@/components/Ui/ScrollGrid3D/ScrollGrid3DCards";
 
 const Scrollgrid3DCards = dynamic(
-  () => import("@/components/Ui/Scrollgrid3D/ScrollGrid3DCards"),
+  () => import("@/components/Ui/ScrollGrid3D/ScrollGrid3DCards"),
   { ssr: false }
 );
 
