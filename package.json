@@ -13,7 +13,7 @@
     "dev": "next dev --webpack",
     "blog:list": "tsx --env-file=.env.local src/scripts/list-blog-posts.ts",
     "blog:publish": "tsx --env-file=.env.local src/scripts/publish-drafts.ts",
-    "build": "next build",
+    "build": "next build --webpack",
     "build:analyze": "ANALYZE=true next build",
     "build:debug": "NODE_ENV=development next build",
     "start": "next start",
